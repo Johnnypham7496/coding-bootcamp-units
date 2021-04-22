@@ -2,3 +2,17 @@
     height: 30%;
     width: 30%;
 }
+
+h1{
+    background-color: black;
+    color: antiquewhite;
+}
+
+body{
+    text-align: center;
+}
+
+li{
+    margin-left: 37%;
+    margin-right: 40%;
+}
