@@ -14,6 +14,7 @@ body {
     color: #333333;
     margin: 0;
     padding: 0;
+    line-height: 150%;
 }
 
 header {
@@ -35,11 +36,11 @@ h2 {
 
 .container {
     width: 1024px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-#main-bio {
-    float: left;
+a {
+    color: #d21034;
 }
 
 #contact-info {
