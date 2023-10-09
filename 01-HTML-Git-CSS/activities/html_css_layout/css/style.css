@@ -10,11 +10,12 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 
 body {
     background-color: #efeee7;
-    font: Georgia, "Times New Roman", seriff;
+    font: Georgia, "Times New Roman", Times, seriff;
     color: #333333;
     margin: 0;
     padding: 0;
     line-height: 150%;
+    font-size: 18px;
 }
 
 header {
@@ -43,12 +44,9 @@ a {
     color: #d21034;
 }
 
-#contact-info {
-    float: left;
-}
-
 #bio-image {
     float: left;
+    margin-right: 20px;
     width: 200px;
     height: 200px;
 }
