@@ -1,0 +1,139 @@
+.social{
+    text-align: center;
+    font-size: 17px;
+    background-color: yellowgreen;
+    color: antiquewhite;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: yellowgreen;
+    padding: 0.5%;
+}
+
+h3{
+    text-align: center;
+}
+
+#bio-paragraph{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#web-developer-answer{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#one-piece {
+    margin: auto;
+    display: block;
+}
+
+
+body {
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: aqua;
+}
+
+h1 { 
+    color: #efeee7;
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    background-color: #efeee7;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+ul {
+    text-align: left;
+    font-size: 17px;
+    list-style-position: inside;
+    border-style: solid;
+    margin-bottom: auto;
+    border-width: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    overflow: auto;
+}
+    
+ol {
+    text-align: left;
+    font-size: 17px;
+    list-style-position: inside;
+    border-style: solid;
+    margin-bottom: auto;
+    border-width: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    overflow: auto;
+}
+
+h4 {
+    text-align: center;
+    font-size: 17px;
+}
+
+h5 {
+    font-size: 17px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+}
+
+#ytplayer {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    margin-left: 30%;
+    margin-right: 30%;
+}
