@@ -1,5 +1,7 @@
 # Activity 5 - GitHub Pages Personal Bio
 
+## Repo for this activity: [Johnnypham7496,github.io](https://github.com/Johnnypham7496/Johnnypham7496.github.io)
+
 Now that we have gone over how to create a personal website using GitHub Pages, it is time to publish your own personal website! See the guide below as a reminder of what steps you need to take. 
 
 ### Instructions
