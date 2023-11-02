@@ -29,15 +29,13 @@ h3{
     margin-right: 30%;
 }
 
-#one-piece {
-    margin: auto;
-    display: block;
-}
-
 
 body {
     background-color: #efeee7;
-    margin: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     border-style: solid;
     border-color: aqua;
@@ -65,75 +63,17 @@ img {
     margin-right: auto;
     display: block;
     margin-top: 15px;
+    height: 100%;
+    width: 40%;
 }
 
 p {
     text-align: center;
     font-size: 17px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-ul {
-    text-align: left;
-    font-size: 17px;
-    list-style-position: inside;
-    border-style: solid;
-    margin-bottom: auto;
-    border-width: 5px;
     margin-left: 300px;
     margin-right: 300px;
-    border-left: solid;
-    border-right: solid;
-    border-top: solid;
-    border-bottom: solid;
-    overflow: auto;
 }
     
-ol {
-    text-align: left;
-    font-size: 17px;
-    list-style-position: inside;
-    border-style: solid;
-    margin-bottom: auto;
-    border-width: 5px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-left: solid;
-    border-right: solid;
-    border-top: solid;
-    border-bottom: solid;
-    overflow: auto;
-}
-
-h4 {
-    text-align: center;
-    font-size: 17px;
-}
-
-h5 {
-    font-size: 17px;
-    text-align: center;
-}
-
-td {
-    text-align: center;
-}
-
 a {
     text-align: center;
-}
-
-.link {
-    text-align: center;
-}
-
-#ytplayer {
-    display: block;
-    margin: 0 auto;
-}
-
-hr {
-    margin-left: 30%;
-    margin-right: 30%;
 }
