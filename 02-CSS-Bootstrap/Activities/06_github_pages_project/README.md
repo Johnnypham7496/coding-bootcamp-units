@@ -1,5 +1,7 @@
 # Activity 6 - GitHub Pages Project Webpage
 
+## Repo for this activity: [Johnnypham7496.github.io/favorite-animals](https://johnnypham7496.github.io/favorite-animal/)
+
 In this activity you'll practice creating github pages with projects. You'll build a website about your favorite type of animal!
 
 ### Instructions
