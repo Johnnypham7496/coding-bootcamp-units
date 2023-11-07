@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>About Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
     </head>
 
@@ -12,25 +13,64 @@
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
     </nav>
 
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                <!-- The content in this div gets wrapped in a card -->
-                    <h1>About Me</h1>
+                <div class="col-md-8">
+                    <div class="page-header">
+                        <h1>About Me</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-thumbnail" src="http://placehold.it/150x150" alt="placeholder">
+                        </div>
+
+                        <div class="col-md-9">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Alias quibusdam culpa, iusto odio aut qui perspiciatis sapiente optio facilis? 
+                                Explicabo, reiciendis eum! Fugiat maxime deleniti voluptatum quibusdam necessitatibus nam magnam! 
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos hic perferendis, 
+                                dicta eos assumenda fuga a, culpa accusantium qui soluta commodi possimus dolore iure repellat ex neque consequatur, 
+                                magnam nemo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mt-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-3">
-              <img class="img img-thumbnail" src="http://placehold.it/200x200" alt="placeholder">
-            </div>
-            <div class="col-lg-9">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
-            </div>
-          </div>
+          <!-- jQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <!-- Bootstrap JavaScript CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
 </html>
