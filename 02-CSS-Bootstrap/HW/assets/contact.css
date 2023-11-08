@@ -40,3 +40,7 @@ h1{
     font-weight: 30px;
     color: white;
 }
+
+#linkedin-icon, #github-icon  {
+    float: left;
+}
