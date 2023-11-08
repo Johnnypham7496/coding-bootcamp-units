@@ -35,6 +35,19 @@ h1{
     color: white;
 }
 
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+#about-me-paragraph {
+    width: 100%;
+}
+
+#main-bio {
+    margin-top: 7%;
+}
+
 #main-content {
     /* Box-model */
     width: 5000px;
@@ -47,47 +60,73 @@ h1{
   }
   
   @media screen and (max-width: 768px) {
-      #main-content {
-          padding: 20px;
-          margin: auto;
-      }
-  
-      body {
-          background-color: #333;
-      }
-      footer {
-          position: inherit;
-      }
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #about-me-paragraph {
+        width: 100%;
+    }
+
+    #main-content {
+        padding: 20px;
+        margin: auto;
+    }
+
+    body {
+        background-color: #333;
+    }
+    footer {
+        position: inherit;
+    }
   }
   
   /* Additional Screen Sizes */
   
   /* Width at 320px and below */
   @media screen and (max-width: 320px) {
-      #main-content {
-          padding: 20px;
-          margin: auto;
-      }
-      body {
-          background-color: #333;
-      }
-  
-      footer {
-          position: inherit;
-      }
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #about-me-paragraph {
+        width: 100%;
+    }
+    #main-content {
+        padding: 20px;
+        margin: auto;
+    }
+    body {
+        background-color: #333;
+    }
+
+    footer {
+        position: inherit;
+    }
   }
   
   /* Width at 144px and below */
   @media screen and (max-width: 144px) {
-      #main-content {
-          padding: 20px;
-          margin: auto;
-      }
-      body {
-          background-color: #333;
-      }
-  
-      footer {
-          position: inherit;
-      }
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #about-me-paragraph {
+        width: 100%;
+    }
+    
+    #main-content {
+        padding: 20px;
+        margin: auto;
+    }
+    body {
+        background-color: #333;
+    }
+
+    footer {
+        position: inherit;
+    }
   }
