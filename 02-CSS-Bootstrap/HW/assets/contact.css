@@ -1,26 +1,20 @@
 body{
-
     background-color: #efeeef; 
 }
 
 header{
-
     width: 100%;
 }
 
 section{
-
     margin: 80px;
 }
 
 header a :hover{
-
     color: rgb(119, 122, 122);
-
 }
 
 footer{
-
     text-align: center;
     position: absolute;
     bottom: 0%;
@@ -43,6 +37,7 @@ h1{
 
 #linkedin-icon, #github-icon  {
     float: left;
+    position: relative;
 }
 
 #linkedin-icon {
@@ -62,6 +57,7 @@ h1{
 #name-input, #email-input, #message-input {
     margin-top: 3%;
     margin-bottom: 3%;
+    position: relative;
 }
 
 
@@ -69,6 +65,7 @@ h1{
   /* Box-model */
   width: 5000px;
   margin: auto;
+  position: relative;
 } 
 
 #contact-title {
@@ -84,6 +81,9 @@ h1{
     body {
         background-color: #333;
     }
+    footer {
+        position: inherit;
+    }
 }
 
 /* Additional Screen Sizes */
@@ -97,15 +97,23 @@ h1{
     body {
         background-color: #333;
     }
+
+    footer {
+        position: inherit;
+    }
 }
 
-/* Width at 168px and below */
-@media screen and (max-width: 168px) {
+/* Width at 144px and below */
+@media screen and (max-width: 144px) {
     #main-content {
         padding: 20px;
         margin: auto;
     }
     body {
         background-color: #333;
+    }
+
+    footer {
+        position: inherit;
     }
 }
