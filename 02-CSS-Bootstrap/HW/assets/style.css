@@ -1,43 +1,53 @@
-body{
-
-    background-color: #efeeef; 
+body {
+    background-color: #efeeef;
 }
 
-header{
-
+header {
     width: 100%;
 }
 
-section{
-
-    margin: 80px;
+section {
+    margin: 80%;
 }
 
-header a :hover{
-
-    color: aqua;
-
+header a:hover {
+    color: rgb(119, 122, 122);
 }
 
-footer{
-
-    text-align: center;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    margin: 0%;
-    height: 2.5rem;
+h1 {
+    font-weight: bold;
+    font-size: 45px;
 }
 
-h3{
-
+#page-logo {
     font-size: 30px;
-    color: #efeeef;
 }
 
-h1{
-
-    font-weight: 30px;
-    color: white;
+h6 {
+    margin-left: 150px;
 }
 
+#about-image {
+    float: left;
+    width: auto;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    margin: 0;
+}
+
+#main-bio {
+    margin-top: 7%;
+}
+
+.row {
+    padding: 10px;
+}
