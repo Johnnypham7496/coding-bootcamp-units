@@ -19,10 +19,9 @@ header a :hover{
 
 }
 
-footer{
-
+footer {
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     width: 100%;
     margin: 0%;
@@ -30,15 +29,17 @@ footer{
 }
 
 h3{
-
     font-size: 30px;
     color: #efeeef;
 }
 
 h1{
-
     font-weight: 30px;
     color: white;
+}
+
+#main-content {
+    margin-top: 5%;
 }
 
 
