@@ -14,6 +14,16 @@ header a :hover{
     color: rgb(119, 122, 122);
 }
 
+h1  {
+    font-weight: 30px;
+    color: white;
+}
+
+h3  {
+    font-size: 30px;
+    color: #efeeef;
+}
+
 footer {
     text-align: center;
     position: fixed;
@@ -22,16 +32,6 @@ footer {
     width: 100%;
     height: 2.5rem;
     margin: 0;
-}
-
-h3  {
-    font-size: 30px;
-    color: #efeeef;
-}
-
-h1  {
-    font-weight: 30px;
-    color: white;
 }
 
 #linkedin-icon, #github-icon  {
