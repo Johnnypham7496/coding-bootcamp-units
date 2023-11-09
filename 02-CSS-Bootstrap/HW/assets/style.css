@@ -36,8 +36,8 @@ h6 {
 
 footer {
     text-align: center;
-    position: absolute;
-    padding-top: 60px;
+    position: fixed;
+    height: 60px;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
