@@ -40,3 +40,7 @@ footer {
 #main-content {
     margin-top: 5%;
 }
+
+.row {
+    padding: 10px;
+}
