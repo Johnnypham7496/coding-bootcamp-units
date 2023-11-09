@@ -1,12 +1,12 @@
-body{
+body    {
     background-color: #efeeef; 
 }
 
-header{
+header  {
     width: 100%;
 }
 
-section{
+section {
     margin: 80px;
 }
 
@@ -23,14 +23,12 @@ footer {
     height: 2.5rem;
 }
 
-h3{
-
+h3  {
     font-size: 30px;
     color: #efeeef;
 }
 
-h1{
-
+h1  {
     font-weight: 30px;
     color: white;
 }
@@ -60,10 +58,8 @@ h1{
     position: absolute;
 }
 
-
 #main-content {
   /* Box-model */
-  width: 5000px;
   margin: auto;
   position: absolute;
 } 
