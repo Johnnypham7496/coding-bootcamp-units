@@ -37,7 +37,7 @@ h1{
 
 #linkedin-icon, #github-icon  {
     float: left;
-    position: relative;
+    position: absolute;
 }
 
 #linkedin-icon {
@@ -57,7 +57,7 @@ h1{
 #name-input, #email-input, #message-input {
     margin-top: 3%;
     margin-bottom: 3%;
-    position: relative;
+    position: absolute;
 }
 
 
@@ -65,7 +65,7 @@ h1{
   /* Box-model */
   width: 5000px;
   margin: auto;
-  position: relative;
+  position: absolute;
 } 
 
 #contact-title {
