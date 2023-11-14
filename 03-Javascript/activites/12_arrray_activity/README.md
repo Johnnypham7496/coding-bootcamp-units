@@ -1,6 +1,6 @@
 ### File
 
-* [`arrays-activity`](Unsolved/arrays-activity.html)
+* [`arrays_activity`](unsolved/arrays_activity.html)
 
 ### Instruction
 

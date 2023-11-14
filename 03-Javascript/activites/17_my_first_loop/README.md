@@ -1,6 +1,6 @@
 ### File
 
-* [`my-first-loop.html`](my-first-loop.html)
+* [`my_first_loop.html`](my_first_loop.html)
 
 ### Instructions
 

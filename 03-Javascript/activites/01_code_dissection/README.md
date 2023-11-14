@@ -1,6 +1,6 @@
 ### File
 
-* [`js-dissect`](js-dissect.html)
+* [`js_dissect`](js_dissect.html)
 
 ### Instructions
 
