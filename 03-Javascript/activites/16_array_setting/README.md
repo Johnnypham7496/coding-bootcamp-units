@@ -1,6 +1,6 @@
 ### File
 
-* [`array-setting-unsolved`](Unsolved/array-setting-unsolved.html)
+* [`array_setting_unsolved`](unsolved/array_setting_unsolved.html)
 
 ### Instructions
 

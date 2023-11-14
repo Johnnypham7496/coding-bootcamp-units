@@ -1,6 +1,6 @@
 ### File
 
-* [`prompt-sushi`](Unsolved/prompt-sushi.html)
+* [`prompt_sushi`](unsolved/prompt_sushi.html)
 
 ### Instructions
 

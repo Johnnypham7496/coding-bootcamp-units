@@ -1,6 +1,6 @@
 ### File
 
-* [`pizza-variables-2`](Unsolved/pizza-variables-2.html)
+* [`pizza_variables-_2`](unsolved/pizza_variables_2.html)
 
 ### Instructions
 
