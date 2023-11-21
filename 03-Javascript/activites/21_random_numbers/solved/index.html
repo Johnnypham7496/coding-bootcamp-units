@@ -9,6 +9,8 @@
       // Loop 10 times
       for (var i = 0; i < 10; i++) {
         // Generate a random decimal number between 0 and 1
+        // Math.floor will round down, meaning we would get a number between 0 and 9, so we'll always add 1 to bump it up.
+        // In this case I'm using 11 instead of 10 taking the shorter route which will give us the same result
         var num = Math.floor(Math.random() * 11);
 
         // Display in console
