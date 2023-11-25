@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissors part 1</title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            //  creates an array that lists out all of the options (Rock, Paper, or Scissors).
+            var computerChoices = ['rock', 'paper', 'scissors'];
+
+            // creating variables to hold the number of wins, losses, and ties. They all start at 0
+            var wins = 0;
+            var losses = 0;
+            var ties = 0;
+
+
+            for (var i = 0; i < 10; i++) {
+                var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+                // Test if computer random choices are working
+                console.log(computerGuess)
+
+                // Collect the user responses and convert to lowercase
+                var userGuess = prompt("Enter rock, paper, or scissors to play!: ")
+                userGuess = userGuess.toLowerCase();
+
+                // Only run if user chooses a valid option
+                if (userGuess === "rock" || userGuess === "paper" || userGuess === "scissors") {
+                    alert("The computer chooses: " + computerGuess);
+
+                    // Check one of the win conditions. We'll worry about the others later
+                    if ((userGuess === "rock" && computerGuess === "scissors") ||
+                        (userGuess === "paper" && computerGuess === "rock") ||
+                        (userGuess === "scissors" && computerGuess === "paper")) {
+                        wins++; 
+
+                        alert("You've won " + wins + " time(s)!"); 
+                    }
+
+                    else if (userGuess === computerGuess) {
+                        ties++;
+                        alert("You've tied " + ties + " time(s).");
+                    }
+
+                    else {
+                        losses++;
+                        alert("You've lost " + losses + " time(s).");
+                    }
+                }
+            }
+
+            // When the game is over, alert the totals to the user. We can use the \n character to make a line break
+            alert("Total wins: " + wins + "\nTotal ties: " + ties + "\nTotal losses: " + losses);
+
+        </script>
+    </body>
+
+</html>
