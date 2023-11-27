@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Question Game!</title>
+  </head>
+  <body>
+
+    <script>
+
+        var questions = [
+            {"q": "The sky is blue", "a": "t"},
+            {"q": "You are human", "a": "t"},
+            {"q": "Cars are made of rubber", "a": "f"},
+            {"q": "You like playing video games", "a": "t"},
+            {"q": "The Kardashians is a good show", "a": "f"},
+            {"q": "The ocean is green", "a": "f"},
+            {"q": "There are 50 states in the US", "a": "t"},
+            {"q": "Too much sugar is good for you", "a": "f"},
+            {"q": "Snow is coming soon", "a": "t"},
+            {"q": "I am batman", "a": "f"},
+        ]
+
+
+        var score = 0
+
+        for (var i = 0; i < questions.length; i++) {
+            var answer = confirm(questions[i].q);
+
+            if ((answer === true && questions[i].a === "t") || 
+                (answer === false && questions[i].a === "f")) {
+                    score++
+                    alert("Correct!");
+                }
+            else {
+                alert("Sorry. That is incorrect.");
+            } 
+        }
+
+        alert("Score: " + score + "/" + questions.length);
+
+    </script>
+
+  </body>
+</html>
