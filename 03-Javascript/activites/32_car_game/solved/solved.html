@@ -69,6 +69,7 @@
         // Prompt user to input a letter
         letter = prompt("Type 'h' to honk, 'd' to drive to work, 'w' to drive around the world, or 't' to get a tuneup.");
         letter = letter.trim().toLowerCase();
+        console.log(letter);
         
         // TO DO: Call the different car methods
         if (letter === "h") {
@@ -76,17 +77,17 @@
             reWriteStats();
         }
 
-        if (letter === "d") {
+        else if (letter === "d" && car.isWorking) {
             driveToWork();
             reWriteStats();
         }
 
-        if (letter === "w") {
+        else if (letter === "w" && car.isWorking) {
             car.driveAroundWorld();
             reWriteStats();
         }
 
-        if (letter === "t") {
+        else if (letter === "t") {
             car.getTuneUp();
             reWriteStats();
         }
