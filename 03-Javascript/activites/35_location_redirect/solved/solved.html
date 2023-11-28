@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Window Scope</title>
+  </head>
+  <body>
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+      // console.log(window);
+      console.log(window.navigator.userAgentData.platform);
+      if (/Windows/gi.test(window.navigator.userAgent)) {
+        alert("Welcome, Windows user!")
+      }
+      else {
+        alert("Welcome, Mac OS X user!")
+      }
+
+      
+
+    </script>
+  </body>
+</html>
