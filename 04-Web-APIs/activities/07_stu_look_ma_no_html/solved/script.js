@@ -1,28 +1,26 @@
-// Create your HTML Page via DOM Methods here!
-var h1 = document.createElement("h1");
-h1.textContent = "hello";
-var h2 = document.createElement("h2");
-h2.textContent - "World";
+// Set the document to a variable
+var body = document.body;
 
-var img = document.createElement("img");
-img.setAttribute("src", "");
-var p = document.createElement("p");
-p.textContent = "lfsd;fls;d";
+// create all the necessary elements
+var h1E1 = document.createElement("h1");
+var h1E2 = document.createElement("h2");
+var infoE1 = document.createElement("div");
+var imgE1 = document.createElement("img");
+var kittenE1 = document.createElement("div");
+var nameE1 = document.createElement("div");
+var favoriteE1 = document.createElement("div");
+var listE1 = document.createElement("ol");
+var list1 = document.createElement("li");
+var list2 = document.createElement("li");
+var list3 = document.createElement("li");
+var list4 = document.createElement("li");
 
-var li1 = document.createElement("li");
-li1.textContent = "steak";
-var li2 = document.createElement("li");
-li2.textContent = "hot dog";
-var li3 = document.createElement("li");
-li3.textContent = "chicken";
 
-var ul = document.createElement("ul");
-ul.appendChild(li1);
-ul.appendChild(li2);
-ul.appendChild(li3);
+// store our elements in a variable
+var listItems = document.getElementsByTagName("li");
 
-document.body.appendChild(h1);
-document.body.appendChild(h2);
-document.body.appendChild(li);
-document.body.appendChild(ul);
-document.body.appendChild(img);
+
+// set the content of relevant elements
+h1E1.textContent = "Welcome to my page.";
+
+body.appendChild(h1E1);
