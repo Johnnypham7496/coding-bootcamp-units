@@ -21,7 +21,7 @@ var listItems = document.getElementsByTagName("li");
 
 
 // set the content of relevant elements
-h1El.textContent = "Welcome to my page.";
+h1El.textContent = "Welcome to my page";
 h2El.textContent = "This HTML document was created by using JavaScript and Chrome Dev Tools.";
 kittenEl.textContent = "This is my kitten.";
 nameEl.textContent = "Hi my name is Johnny Pham";
@@ -48,3 +48,17 @@ listEl.appendChild(list4);
 
 
 // style all of our elements
+h1El.setAttribute("style", "margin: auto; width: 50%; text-align: center");
+h2El.setAttribute("style", "margin: auto; width: 100%; text-align: center");
+infoEl.setAttribute("style", "margin: auto; width:50%; text-align: center");
+imgEl.setAttribute("src", "http://placekitten.com/200/300");
+imgEl.setAttribute("height", 200);
+imgEl.setAttribute("width", 200);
+nameEl.setAttribute("style", "font-size: 25px; text-align: center");
+kittenEl.setAttribute("style", "font-size: 25px; text-align: center");
+favoriteEl.setAttribute("style", "font-size: 20px");
+listEl.setAttribute("style", "background: #333333; padding: 20px");
+listItems[0].setAttribute("style", "color: white; background: #666666; padding: 5px; margin-left: 35px;");
+listItems[1].setAttribute("style", "color: white; background: #777777; padding: 5px; margin-left: 35px;");
+listItems[2].setAttribute("style", "color: white; background: #888888; padding: 5px; margin-left: 35px;");
+listItems[3].setAttribute("style", "color: white; background: #999999; padding: 5px; margin-left: 35px;");
