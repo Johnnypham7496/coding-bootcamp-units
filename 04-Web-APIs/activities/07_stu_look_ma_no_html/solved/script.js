@@ -2,14 +2,14 @@
 var body = document.body;
 
 // create all the necessary elements
-var h1E1 = document.createElement("h1");
-var h2E1 = document.createElement("h2");
-var infoE1 = document.createElement("div");
-var imgE1 = document.createElement("img");
-var kittenE1 = document.createElement("div");
-var nameE1 = document.createElement("div");
-var favoriteE1 = document.createElement("div");
-var listE1 = document.createElement("ol");
+var h1El = document.createElement("h1");
+var h2El = document.createElement("h2");
+var infoEl = document.createElement("div");
+var imgEl = document.createElement("img");
+var kittenEl = document.createElement("div");
+var nameEl = document.createElement("div");
+var favoriteEl = document.createElement("div");
+var listEl = document.createElement("ol");
 var list1 = document.createElement("li");
 var list2 = document.createElement("li");
 var list3 = document.createElement("li");
@@ -21,11 +21,11 @@ var listItems = document.getElementsByTagName("li");
 
 
 // set the content of relevant elements
-h1E1.textContent = "Welcome to my page.";
-h2E1.textContent = "This HTML document was created by using JavaScript and Chrome Dev Tools.";
-kittenE1.textContent = "This is my kitten.";
-nameE1.textContent = "Hi my name is Johnny Pham";
-favoriteE1.textContent = "My favorite foods are:";
+h1El.textContent = "Welcome to my page.";
+h2El.textContent = "This HTML document was created by using JavaScript and Chrome Dev Tools.";
+kittenEl.textContent = "This is my kitten.";
+nameEl.textContent = "Hi my name is Johnny Pham";
+favoriteEl.textContent = "My favorite foods are:";
 list1.textContent = "Chicken Fingers";
 list2.textContent = "Pizza";
 list3.textContent = "Burgers";
@@ -33,12 +33,18 @@ list4.textContent = "Sushi";
 
 
 // append all of our elements
-body.appendChild(h1E1);
-body.appendChild(h2E1);
-body.appendChild(kittenE1);
-body.appendChild(nameE1);
-body.appendChild(favoriteE1);
-body.appendChild(list1);
-body.appendChild(list2);
-body.appendChild(list3);
-body.appendChild(list4);
+body.appendChild(h1El);
+body.appendChild(h2El);
+body.appendChild(infoEl);
+infoEl.appendChild(imgEl);
+infoEl.appendChild(kittenEl);
+infoEl.appendChild(nameEl);
+body.appendChild(favoriteEl);
+favoriteEl.appendChild(listEl)
+listEl.appendChild(list1);
+listEl.appendChild(list2);
+listEl.appendChild(list3);
+listEl.appendChild(list4);
+
+
+// style all of our elements
