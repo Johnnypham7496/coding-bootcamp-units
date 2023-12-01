@@ -15,25 +15,25 @@ function calculateTotal(total, tipAmount) {
 }
 
 
-function addTip (event) {
+function addTip(event) {
     event.preventDefault();
     var tipPercentage = tipEl.value * .01; 
     var total = totalEl.value;
     var tipAmount = calculateTip(total, tipPercentage);
     var newTotal = calculateTotal(tipAmount, total);
-    document.querySelector("tip-amount").textContent = tipAmount;
-    document.querySelector("new-total").textContent = newTotal.toFixed(2);
+    document.querySelector("#tip-amount").textContent = tipAmount;
+    document.querySelector("#new-total").textContent = newTotal.toFixed(2);
 }
 
 
-function splitTotal (event) {
+function splitTotal(event) {
     event.preventDefault();
 
-    var total = document.querySelector("new-total").textContent;
-    var numPeople = document.querySelector("num-people").value;
+    var total = document.querySelector("#new-total").textContent;
+    var numPeople = document.querySelector("#num-people").value;
 
     var newTotal = (total / numPeople).toFixed(2);
-    document.querySelector("split-total").textContent = newTotal
+    document.querySelector("#split-total").textContent = newTotal
 }
 
 
