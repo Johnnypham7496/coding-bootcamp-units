@@ -10,12 +10,17 @@ function calculateTip(total, tipPercentage) {
 }
 
 
+function calculateTotal(total, tipAmount) {
+    return parseFloat(total) + parseFloat(tipAmount);
+}
+
+
 function addTip (event) {
     event.preventDefault();
     var tipPercentage = tipEl.value * .01; 
     var total = totalEl.value;
     var tipAmount = calculateTip(total, tipPercentage);
-    var newTotal = calculateTotal(total, tipAmount);
+    var newTotal = calculateTotal(tipAmount, total);
     document.querySelector("tip-amount").textContent = tipAmount;
     document.querySelector("new-total").textContent = newTotal.toFixed(2);
 }
