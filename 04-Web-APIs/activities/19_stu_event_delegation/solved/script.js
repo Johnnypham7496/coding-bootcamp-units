@@ -39,7 +39,7 @@ function handleClick(event) {
       descriptionEl.value = "";
     }
   }
-}
+};
 
 closeEl.addEventListener("click", close);
 saveBtn.addEventListener("click", function(event) {
@@ -53,4 +53,4 @@ document.addEventListener("click", function(event) {
   if (event.target === modalEl) {
     close();
   }
-})
+});
