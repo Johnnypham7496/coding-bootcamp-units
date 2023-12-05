@@ -36,7 +36,7 @@ function handleClick(event) {
     if (description) {
       descriptionEl.value = description;
     } else {
-      descriptionEl.textContent = "";
+      descriptionEl.value = "";
     }
   }
 }
@@ -44,7 +44,7 @@ function handleClick(event) {
 closeEl.addEventListener("click", close);
 saveBtn.addEventListener("click", function(event) {
   event.preventDefault();
-  people[currentId].description = people[currentId].descriptionEl.value;
+  people[currentId].description = descriptionEl.value;
   close();
 })
 addBtn.addEventListener("click", addPersonToList);
