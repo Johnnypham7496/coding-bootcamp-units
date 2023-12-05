@@ -24,9 +24,33 @@ function close() {
   modalEl.style.display = "none";
 }
 
-function handleClick() {
+function handleClick(event) {
   // Use event delegation to handle when the user clicks "edit"
+  if (event.target.matches("button")) {
+    event.preventDefault();
+    modalEl.style.display = "block";
+    currentId = parseInt(event.target.parentElement.id);
+    var name = people[currentId].name;
+    var description = people[currentId].description;
+    modalNameEl.textContent = name;
+    if (description) {
+      descriptionEl.value = description;
+    } else {
+      descriptionEl.textContent = "";
+    }
+  }
 }
 
 closeEl.addEventListener("click", close);
+saveBtn.addEventListener("click", function(event) {
+  event.preventDefault();
+  people[currentId].description = people[currentId].descriptionEl.value;
+  close();
+})
 addBtn.addEventListener("click", addPersonToList);
+peopleListEl.addEventListener("click", handleClick);
+document.addEventListener("click", function(event) {
+  if (event.target === modalEl) {
+    close();
+  }
+})
